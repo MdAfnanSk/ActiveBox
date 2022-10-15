@@ -1,0 +1,422 @@
+@media (min-width: 1400px) {}
+@media (min-width: 1200px) and (max-width: 1399.98px){
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    /*---------banner part start-----------*/
+    .banner_text h1 {
+        font-size: 59px;
+        line-height: 60px;
+    }
+    .banner_text p {
+        font-size: 21px;
+        line-height: 29px;
+        padding-top: 15px;
+    }
+    .banner_text a {
+        margin-top: 50px;
+    }
+    /*---------banner part end-----------*/
+    /*---------project part start-----------*/
+    .project_col {
+        width: 24.91%;
+    }
+    /*---------project part end-----------*/
+    /*---------footer part start-----------*/
+    .footer_col p {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .last-col p{
+        padding: 0;
+    }
+    /*---------footer part end-----------*/
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    /*---------manu part start-----------*/
+    .main_manu {
+        height: 75px;
+        line-height: 75px;
+    }
+    .main_manu .navbar-brand img{
+        width: 180px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .main_manu button{
+        color: #fff;
+    }
+    .main_manu button i{
+        font-size: 28px;
+    }
+    .main_manu .navbar-nav{
+        background: #000;
+        padding: 30px 0;
+        overflow: hidden;
+    }
+    .main_manu ul li a {
+        padding-left: 0 !important;
+        text-align: center;
+        line-height: 55px;
+        border-bottom: 1px solid #fff;
+    }
+    .main_manu ul li:last-child a{
+        border-bottom: none;
+    }
+    /*---------manu part end-----------*/
+    /*---------banner part start-----------*/
+    #banner {
+        padding: 200px 0 95px;
+    }
+    .banner_text h1 {
+        font-size: 52px;
+        line-height: 55px;
+    }
+    .banner_text p {
+        font-size: 15px;
+        line-height: 21px;
+        padding-top: 10px;
+    }
+    .banner_text a {
+        padding: 13px 50px;
+        margin-top: 45px;
+    }
+    /*---------banner part end-----------*/
+    /*---------services part start-----------*/
+    #services {
+        padding: 80px 0 0;
+    }
+    .services_text p {
+        width: 100%;
+        margin: 0 auto;
+    }
+    /*---------services part end-----------*/
+    /*---------project part start-----------*/
+    #project {
+        padding-bottom: 65px;
+    }
+    .project_main{
+        padding: 0 10px;
+    }
+    .project_col {
+        width: 49.33%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .project_col:nth-child(2),
+    .project_col:nth-child(4),
+    .project_col:nth-child(6),
+    .project_col:nth-child(8){
+        margin-right: 0;
+    }
+    /*---------project part end-----------*/
+    /*---------team part start-----------*/
+    #team {
+        padding-bottom: 45px;
+    }
+    .team_col{
+        padding-bottom: 30px;
+    }
+    /*---------team part end-----------*/
+    /*---------client review part start-----------*/
+    .review_leftsite{
+        width: 100%;
+    }
+    .review_rightsite{
+        width: 100%;
+    }
+    .review_col {
+        padding: 75px 12px 100px;
+    }
+    .review_col p {
+        width: 80%;
+        font-size: 28px;
+        line-height: 33px;
+        text-align: justify;
+        margin: 0 auto;
+    }
+    .review_col span {
+        font-size: 10px;
+        padding-top: 13px;
+        width: 80%;
+        margin: 0 auto
+    }
+    .review_rightsite .slick-dots {
+        bottom: 40px;
+    }
+    /*---------client review part end-----------*/
+    /*---------download part start-----------*/
+    .download_main a {
+        padding: 9px 50px;
+        margin-top: 20px;
+    }
+    /*---------download part end-----------*/
+    /*---------footer part start-----------*/
+    .footer_col p {
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.60);
+        font-family: var(--raleway);
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 22px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .last-col p {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /*---------footer part end-----------*/
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    /*---------manu part start-----------*/
+    .main_manu {
+        height: 75px;
+        line-height: 75px;
+    }
+    .main_manu .navbar-brand img{
+        width: 180px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .main_manu button{
+        color: #fff;
+    }
+    .main_manu button i{
+        font-size: 28px;
+    }
+    .main_manu .navbar-nav{
+        background: #000;
+        padding: 30px 0;
+        overflow: hidden;
+    }
+    .main_manu ul li a {
+        padding-left: 0 !important;
+        text-align: center;
+        line-height: 55px;
+        border-bottom: 1px solid #fff;
+    }
+    .main_manu ul li:last-child a{
+        border-bottom: none;
+    }
+    /*---------manu part end-----------*/
+    /*---------banner part start-----------*/
+    #banner {
+        padding: 180px 0 80px;
+    }
+    .banner_text h1 {
+        font-size: 38px;
+        line-height: 40px;
+    }
+    .banner_text p {
+        font-size: 15px;
+        line-height: 21px;
+        padding-top: 10px;
+    }
+    .banner_text a {
+        padding: 10px 30px;
+        margin-top: 35px;
+    }
+    /*---------banner part end-----------*/
+    /*---------services part start-----------*/
+    #services {
+        padding: 80px 0 0;
+    }
+    .services_text p {
+        width: 80%;
+        margin: 0 auto;
+    }
+    /*---------services part end-----------*/
+    /*---------project part start-----------*/
+    #project {
+        padding-bottom: 65px;
+    }
+    .project_main{
+        padding: 0 10px;
+    }
+    .project_col {
+        width: 49.10%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .project_col:nth-child(2),
+    .project_col:nth-child(4),
+    .project_col:nth-child(6),
+    .project_col:nth-child(8){
+        margin-right: 0;
+    }
+    /*---------project part end-----------*/
+    /*---------team part start-----------*/
+    #team {
+        padding-bottom: 45px;
+    }
+    .team_col{
+        padding-bottom: 30px;
+    }
+    /*---------team part end-----------*/
+    /*---------client review part start-----------*/
+    .review_leftsite{
+        width: 100%;
+    }
+    .review_rightsite{
+        width: 100%;
+    }
+    .review_col {
+        padding: 75px 12px 100px;
+    }
+    .review_col p {
+        width: 90%;
+        font-size: 28px;
+        line-height: 33px;
+        text-align: justify;
+        margin: 0 auto;
+    }
+    .review_col span {
+        font-size: 10px;
+        padding-top: 13px;
+        width: 90%;
+        margin: 0 auto
+    }
+    .review_rightsite .slick-dots {
+        bottom: 40px;
+    }
+    /*---------client review part end-----------*/
+    /*---------download part start-----------*/
+    .download_main a {
+        padding: 9px 50px;
+        margin-top: 20px;
+    }
+    /*---------download part end-----------*/
+    /*---------footer part start-----------*/
+    .footer_col p {
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.60);
+        font-family: var(--raleway);
+        padding-left: 35px;
+        padding-right: 35px;
+        line-height: 22px;
+    }
+    .last-col p {
+        width: 80%;
+        margin: 0 auto;
+    }
+    /*---------footer part end-----------*/
+}
+
+@media (max-width: 575.98px){
+    /*---------manu part start-----------*/
+    .main_manu {
+        height: 70px;
+        line-height: 70px;
+    }
+    .main_manu .navbar-brand img{
+        width: 140px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .main_manu button{
+        color: #fff;
+    }
+    .main_manu .navbar-nav{
+        background: #000;
+        padding: 30px 0;
+        overflow: hidden;
+    }
+    .main_manu ul li a {
+        padding-left: 0 !important;
+        text-align: center;
+        line-height: 50px;
+        border-bottom: 1px solid #fff;
+    }
+    .main_manu ul li:last-child a{
+        border-bottom: none;
+    }
+    /*---------manu part end-----------*/
+    /*---------banner part start-----------*/
+    #banner {
+        padding: 150px 0 80px;
+    }
+    .banner_text h1 {
+        font-size: 36px;
+        line-height: 37px;
+    }
+    .banner_text p {
+        font-size: 15px;
+        line-height: 21px;
+        padding-top: 10px;
+        text-align: justify;
+    }
+    .banner_text a {
+        padding: 10px 30px;
+        margin-top: 35px;
+    }
+    /*---------banner part end-----------*/
+    /*---------services part start-----------*/
+    #services {
+        padding: 75px 0 0;
+    }
+    /*---------services part end-----------*/
+    /*---------project part start-----------*/
+    #project {
+        padding-bottom: 65px;
+    }
+    .project_col {
+        width: 98.94%;
+        margin: 0 8px 10px;
+
+    }
+    /*---------project part end-----------*/
+    /*---------team part start-----------*/
+    #team {
+        padding-bottom: 45px;
+    }
+    .team_col{
+        padding-bottom: 30px;
+    }
+    /*---------team part end-----------*/
+    /*---------client review part start-----------*/
+    .review_leftsite{
+        width: 100%;
+    }
+    .review_rightsite{
+        width: 100%;
+    }
+    .review_col {
+        padding: 75px 12px 100px;
+    }
+    .review_col p {
+        width: 100%;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    .review_col span {
+        font-size: 10px;
+        padding-top: 13px;
+    }
+    .review_rightsite .slick-dots {
+        bottom: 40px;
+    }
+    /*---------client review part end-----------*/
+    /*---------download part start-----------*/
+    .download_main a {
+        padding: 9px 50px;
+        margin-top: 20px;
+    }
+    /*---------download part end-----------*/
+    /*---------footer part start-----------*/
+    .footer_col {
+        padding-top: 40px;
+    }
+    .footer_bottom p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    /*---------footer part end-----------*/
+}
